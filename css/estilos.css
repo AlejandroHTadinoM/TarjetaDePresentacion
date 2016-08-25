@@ -5,7 +5,6 @@
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
 }
-
 body{
 	background: url("../img/bg2.png");
 	-webkit-background-size: cover;
@@ -13,11 +12,13 @@ body{
 	background-attachment: fixed;
 	font-family: 'Oxygen', sans-serif;
 }
-
 a{
 	text-decoration: none;
+	color: #55ACEE;
 }
-
+a:hover{
+	color: #04245D;
+}
 .contenedor{
 	width: 90%;
 	max-width: 700px;
@@ -31,7 +32,6 @@ a{
 	-ms-align-items: center;
 	align-items: center;
 }
-
 .tarjeta{
 	background: #FFF;
 	margin: 40px 0;
@@ -40,18 +40,15 @@ a{
 	overflow: hidden;
 	z-index: 1000;
 }
-
 .slider_banner{
 	overflow: hidden;
 	z-index: 1000;
 	position: relative;
 }
-
 .slider_banner .banner{
 	position: relative;
 	width: 100%;
 }
-
 .slider_banner .banner img{
 	vertical-align: top;
 	width: 100%;
@@ -59,7 +56,6 @@ a{
 	top: 0;
 	left: 100%;
 }
-
 .slider_banner .flecha-banner{
 	font-size: 35px;
 	line-height: 35px;
@@ -68,19 +64,15 @@ a{
 	top: 50%;
 	z-index: 1100;
 }
-
 .slider_banner .flecha-banner:hover{
 	color: rgba(0, 0, 0, .6);
 }
-
 .slider_banner .anterior{
 	left: 30px;
 }
-
 .slider_banner .siguiente{
 	right: 30px;
 }
-
 .slider_info{
 	text-align: center;
 	overflow: hidden;
@@ -88,17 +80,14 @@ a{
 	position: relative;
 	z-index: 1000;
 }
-
 .slider_info .informacion{
 	width: 100%;
 }
-
 .slider_info .informacion article{
 	width: 100%;
 	overflow: hidden;
 	position: relative;
 }
-
 .slider_info .informacion article .slide{
 	background: #FFF;
 	width: 100%;
@@ -106,7 +95,6 @@ a{
 	position: absolute;
 	padding: 20px 80px;
 }
-
 .slider_info .flecha-info{
 	font-size: 35px;
 	line-height: 35px;
@@ -115,23 +103,18 @@ a{
 	top: 50%;
 	z-index: 1100;
 }
-
 .slider_info .flecha-info:hover{
 	color: rgba(0, 0, 0, .6);
 }
-
 .slider_info .anterior{
 	left: 20px;
 }
-
 .slider_info .siguiente{
 	right: 20px;
 }
-
 .slider_info .informacion img{
 	width: 32px;
 }
-
 .slider_info .informacion .nombre{
 	color #444;
 	font-size: 38px;
@@ -139,24 +122,20 @@ a{
 	font-weight: 700;
 	margin-bottom: 16px;
 }
-
 .slider_info .informacion .trabajo{
 	color: #55ACEE;
 	font-size: 16px;
 	line-height: 16px;
 	margin-bottom: 8px;
 }
-
 .slider_info .informacion .pais{
 	color: #8D8D8D;
 	font-size: 10px;
 	line-height: 10px;
 }
-
 .slider_info .botones{
 	margin: 16px 0;
 }
-
 .slider_info .botones span{
 	border-radius: 50%;
 	display: inline-block;
@@ -165,17 +144,14 @@ a{
 	margin: 0 10px;
 	background: rgba(0, 0, 0, .2);
 }
-
 .slider_info .botones .active{
 	background: rgba(0, 0, 0, .6);
 }
-
 .redes_sociales{
 	width: 100%;
 	padding: 20px 0;
 	text-align: center;
 }
-
 .redes_sociales a{
 	display: inline-block;
 	width: 50px;
@@ -187,7 +163,13 @@ a{
 	border-radius: 50%;
 	margin: 0 16px;
 }
-
 .redes_sociales a span{
 	font-size: 20px;
+}
+.listas-wrap{
+	margin-top: 10px;
+	margin-left: auto;
+}
+.listas{
+	text-align: left;
 }
